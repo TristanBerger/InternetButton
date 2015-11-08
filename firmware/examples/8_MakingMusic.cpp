@@ -17,7 +17,7 @@ void setup() {
 void loop() {
     if(b.allButtonsOn()){
         b.rainbow(10);
-        b.playSong("E5,8,G5,8,E6,8,C6,8,D6,8,G6,8");
+        b.playSong("A5,8,F5,8,G6,8,A6,8,F6,8,G6,8");
         b.allLedsOff();
     }
     
